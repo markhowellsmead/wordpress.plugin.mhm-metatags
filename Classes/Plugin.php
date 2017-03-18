@@ -19,8 +19,7 @@ class Plugin
      */
     public function loadTextDomain()
     {
-        die(dirname(plugin_basename(__FILE__)) . '/languages');
-        load_plugin_textdomain('mhm-metatags', false, dirname(plugin_basename(__FILE__)) . '/languages');
+        load_plugin_textdomain('mhm-metatags', false, dirname(plugin_basename(__FILE__)) . '/../languages');
     }
 
     /**
