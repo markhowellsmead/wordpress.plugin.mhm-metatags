@@ -9,6 +9,9 @@ A plugin which adds customized meta tags to the head of the page.
 
 ## Changelog
 
+### 1.0.0
+* Stable release
+
 ### 0.0.1
 * Initial version.
 
