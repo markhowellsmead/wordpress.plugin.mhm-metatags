@@ -4,8 +4,8 @@ Plugin Name: Meta tags
 Plugin URI: https://github.com/markhowellsmead/wordpress.plugin.mhm-metatags
 Description: Adds custom meta tags – OG and Twitter – to the head of the page, based on the page request.
 Author: Mark Howells-Mead
-Version: 1.0.0
-Author URI: https://markweb.ch/
+Version: 1.0.1
+Author URI: https://permanenttourist.ch/
 Text Domain: mhm-metatags
 Domain Path: /languages
  */
