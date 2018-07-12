@@ -86,8 +86,8 @@ class Plugin
             }
 
             $tags[] = '<meta name="twitter:card" content="summary_large_image" />';
-            $tags[] = '<meta name="twitter:site" content="@markwebch" />';
-            $tags[] = '<meta name="twitter:creator" content="@markwebch" />';
+            $tags[] = '<meta name="twitter:site" content="@howellsmead" />';
+            $tags[] = '<meta name="twitter:creator" content="@howellsmead" />';
             $tags[] = '<meta name="twitter:title" content="' . $term->name . '" />';
             $tags[] = '<meta name="twitter:description" content="' . htmlentities(preg_replace('/<a href=\"(.*?)\">(.*?)<\/a>/', "\\2", $term->description)) . '" />';
 
@@ -98,8 +98,8 @@ class Plugin
             }
         } elseif (is_tag()) {
             $tags[] = '<meta name="twitter:card" content="summary_large_image" />';
-            $tags[] = '<meta name="twitter:site" content="@markwebch" />';
-            $tags[] = '<meta name="twitter:creator" content="@markwebch" />';
+            $tags[] = '<meta name="twitter:site" content="@howellsmead" />';
+            $tags[] = '<meta name="twitter:creator" content="@howellsmead" />';
 
             $term = get_queried_object();
 
@@ -112,8 +112,8 @@ class Plugin
             }
         } elseif (is_singular()) {
             $tags[] = '<meta name="twitter:card" content="summary_large_image" />';
-            $tags[] = '<meta name="twitter:site" content="@markwebch" />';
-            $tags[] = '<meta name="twitter:creator" content="@markwebch" />';
+            $tags[] = '<meta name="twitter:site" content="@howellsmead" />';
+            $tags[] = '<meta name="twitter:creator" content="@howellsmead" />';
             $tags[] = '<meta name="twitter:title" content="' . get_the_title() . '" />';
             $tags[] = '<meta name="twitter:description" content="' . get_the_excerpt() . '" />';
 
